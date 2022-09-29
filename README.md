@@ -1,4 +1,4 @@
-# MUSE Milestones
+# MUSE Milestones Jaime Jiménez-Alfaro
 ### [contents PDF](https://github.com/jahrWork/MUSE_orbits_S1/blob/master/doc/MUSE_weekly_milestones.pdf)
 
 Create: 
