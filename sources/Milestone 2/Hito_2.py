@@ -29,8 +29,8 @@ for i in range (4):
  
     print( U[:, len(t)-1] )
     plt.title(f'{E_Temporal_Plot[i]}')
-    plt.xlabel("X")
-    plt.ylabel("Y")
+    plt.xlabel("x")
+    plt.ylabel("y")
     plt.plot( U[0,:], U[1,:] )
 
     plt.savefig('Plots/' + E_Temporal_Plot[i]+ ' ' + str(dt)+'.png')
