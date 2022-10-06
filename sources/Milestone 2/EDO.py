@@ -18,24 +18,3 @@ def Cauchy(F,t,U0,E_Temporal):
         U[:,i+1] = E_Temporal(U[:,i],t[i+1] - t[i],t[i],F)
 
     return U
-
-
-
-
-
-
-
-
-# Problema de Cauchy
-#def Cauchy(F, t, U0, E_Temporal):
-
- #   N = len(t) - 1
- #   U = zeros( (len(U0), N+1) )
- #   U[:,0] = U0
-     
- #   for i in range(N):
-        
- #       U[:, i+1] = E_Temporal( U[:,i], t[i+1] - t[i], t[i], F )
-    
-#    return U
-# ------------
